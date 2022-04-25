@@ -9,6 +9,7 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:react/recommended',
     'airbnb',
+    'next',
   ],
   settings: {
     'import/resolver': {
@@ -39,6 +40,8 @@ module.exports = {
     'array-callback-return': 'off',
     'react/jsx-no-useless-fragment': 'off',
     'react/require-default-props': 'off',
+    'react/no-unescaped-entities': 'off',
+    '@next/next/no-page-custom-font': 'off',
     'react/function-component-definition': [
       2,
       {

@@ -57,7 +57,7 @@ export const Posts = ({ post, setPosts, currentPosts }: PostsProps) => {
   // eslint-disable-next-line max-len
   const thereWasEditing = useMemo(
     () => post.title === title && post.content === content,
-    [content, title]
+    [content, title],
   );
 
   const notifySuccess = (message) => {
